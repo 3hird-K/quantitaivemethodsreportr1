@@ -4,7 +4,7 @@ import { ThemeSwitcher } from '@/components/ThemeSwitcher';
 import { FloatingDock } from '@/components/ui/floating-dock';
 import { 
   Home, FileQuestion, Activity, BoxSelect, 
-  BarChart, Lightbulb, GraduationCap 
+  BarChart, Lightbulb, GraduationCap, Users 
 } from 'lucide-react';
 
 const navItems = [
@@ -15,6 +15,7 @@ const navItems = [
   { title: 'Visuals', icon: <BarChart className="h-full w-full text-foreground/80" />, href: '#visuals' },
   { title: 'Insights', icon: <Lightbulb className="h-full w-full text-foreground/80" />, href: '#insights' },
   { title: 'Conclusion', icon: <GraduationCap className="h-full w-full text-foreground/80" />, href: '#conclusion' },
+  { title: 'Team', icon: <Users className="h-full w-full text-foreground/80" />, href: '#team' },
 ];
 
 export function Navbar() {
