@@ -13,9 +13,35 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteUrl = "https://quantitaivemethodsreportr1.vercel.app";
+
 export const metadata: Metadata = {
   title: "Quantitative Methods - 3R1",
-  description: "Quantitative Methods - Price Determinants in Mobile Computing: A Multiple Regression Analysis of Laptop Specifications",
+  description:
+    "Price Determinants in Mobile Computing: A Multiple Regression Analysis of Laptop Specifications & Pricing Elasticity. IT3R1 · IT324.",
+  openGraph: {
+    title: "Quantitative Methods - 3R1",
+    description:
+      "Price Determinants in Mobile Computing: A Multiple Regression Analysis of Laptop Specifications & Pricing Elasticity.",
+    url: siteUrl,
+    siteName: "QM Presentation · IT3R1",
+    images: [
+      {
+        url: `${siteUrl}/assets/main.png`,
+        width: 1200,
+        height: 630,
+        alt: "Quantitative Methods Research Presentation",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Quantitative Methods - 3R1",
+    description:
+      "Price Determinants in Mobile Computing: A Multiple Regression Analysis of Laptop Specifications & Pricing Elasticity.",
+    images: [`${siteUrl}/assets/main.png`],
+  },
 };
 
 export default function RootLayout({
