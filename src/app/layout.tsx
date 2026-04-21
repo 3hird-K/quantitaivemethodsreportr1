@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Quantitative Methods",
+  title: "Quantitative Methods - 3R1",
   description: "Quantitative Methods - Price Determinants in Mobile Computing: A Multiple Regression Analysis of Laptop Specifications",
 };
 
